@@ -12,6 +12,7 @@ doc = Nokogiri::HTML(open("https://flatironschool.com/"))
 
 courses.each do |course|
   puts course.text.strip
+  binding.pry
 end
 
 #binding.pry
