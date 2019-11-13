@@ -8,6 +8,6 @@ doc = Nokogiri::HTML(open("https://flatironschool.com/"))
 
 p doc.css(".headline-26OIBN").text
 
-p doc.css(".title-oE5vT4")
+p doc.css(".inlineMobileLeft-2Yo002")
 
 #binding.pry
