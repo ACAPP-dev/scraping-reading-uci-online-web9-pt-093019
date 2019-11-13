@@ -6,6 +6,6 @@ require 'pry'
 
 doc = Nokogiri::HTML(open("https://flatironschool.com/"))
 
-p doc.css(".headline-260IBN")
+p doc.css(".headline-26OIBN")
 
 #binding.pry
